@@ -1,0 +1,216 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portofolia</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/bdf6401031.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="container">
+                <nav>
+                    <img src="./assets/logo.png" alt="" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Front End Developer</p>
+                    <h1>Hi, I'm <span>Prem</span><br>Kumar From India</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-column1">
+                        <img src="C:\Users\Students Xerox Arni\OneDrive\Desktop\portofolio - Copy\portofolio - Copy\assets\photo.jpg"/>
+                    </div>
+                    <div class="about-column2">
+                        <h1 class="caption">About me</h1><br> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nisi vel dui dictum varius. Sed id malesuada libero, at elementum orci. Cras interdum velit id nisl sollicitudin, vel fermentum elit aliquet. Nulla facilisi.</p>
+                        <p>Quisque ut orci nec augue scelerisque vestibulum. Vivamus convallis ligula a tellus sodales, a luctus eros gravida. Sed aliquet, justo at bibendum pretium, purus urna auctor nulla, non euismod libero elit vel felis.</p>
+                        <div class="titles">
+                            <p class="title-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="title-links"onclick="opentab('experience')">Experience</p>
+                            <p class="title-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="contents active-tab"  id="skills">
+                            <ul>
+                                <span>Programming Languages</span><br><li>Python (70% proficiency)</li><li>Java (40% proficiency, with a focus on Object-Oriented Programming principles)</li><br>
+                                <span>Front-end Developer</span><br><li>HTML<li>CSS</li><li>JavaScript</li><li>Familiar with modern frameworks/libraries (e.g., React, Angular, or Node.js)</li><br>
+                                <span>Data Structures and Algorithms</span><li>Strong understanding of core data structures and algorithms (e.g., arrays, linked lists, trees, sorting algorithms)</li><br>
+                                <span>Software and Tools</span><li>Microsoft Office Suite (Word, Excel) (Advanced proficiency)</li><li>Adobe Photoshop (50% proficiency)</li>
+                            </ul>
+                        </div>
+                        <div class="contents" id="experience">
+                            <ul>
+                                <span>Website Familiarization</span><br><li>Developed a thorough understanding  website structures, including form submissions, document uploads, and service requests.</li><br>
+                                <span>User Experience Insight</span><br><li>Acquired insights into user interface design and website functionality through regular interactions with government online platforms.<li>Identified common user issues and navigational challenges, enhancing overall understanding of web usability.</li><br>
+                                <span>Technical Proficiency:</span><li>Leveraged knowledge of web navigation to assist others in accessing and using online government services effectively.</li><li>Utilized Microsoft Office Suite (Word, Excel) for organizing and documenting information related to web interactions and user support.</li><br>
+                                <span>Key Achievements</span><li>Mastered the use of multiple government websites, contributing to efficient processing of applications and online transactions.</li><li>Developed a keen awareness of website layout and structure, enhancing ability to quickly adapt to new online platforms.</li>
+                            </ul>
+                        </div>
+                        <div class="contents" id="education">
+                            <ul>
+                                <span>Bachelor of Technology (B.Tech) in Information Technology</span><br><li>Currently pursuing a B.Tech in IT, focusing on web development, data structures, and algorithms.</li><li>Relevant coursework: [List any relevant courses or projects, e.g., Web Development, Data Structures, Software Engineering].</li><br>
+                                <span>Higher Secondary Certificate </span><br><li>Pecentage 75%</li><br>
+                                <span>Secondary School Leaving Certificate</span><li>Pecentage 72%</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="service">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Responsive Web Design</h2>
+                        <p>Create mobile-friendly websites that adjust to any device, ensuring a seamless user experience across all screens.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-react"></i>
+                        <h2>Custom React Development</h2>
+                        <p>Build dynamic, interactive web applications using React.js for fast, scalable, and responsive solutions.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Static Websites Development</h2>
+                        <p>Develop fast, SEO-friendly static websites with HTML, CSS, and JavaScript, ideal for businesses and personal sites.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./assets/Kickshot.jpg">
+                        <div class="layer">
+                            <h3>Kickspot</h3>
+                            <p>Kickspot is a Ecommerce Shoes selling site</p>
+                            <a href="https://kickspot.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./assets/Instagram.jpg">
+                        <div class="layer">
+                            <h3>Instagram Profile clone</h3>
+                            <p>this projects is clone of the instagram profile page</p>
+                            <a href="https://instaprofileclone.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./assets/weather.png">
+                        <div class="layer">
+                            <h3>Weathe app</h3>
+                            <p>Weather app is providing the real time weather datas using an api</p>
+                            <a href="https://breezeboard.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    
+                </div>
+                <div class="work hiddenImage" >
+                    <img src="./assets/Studentsxerox.jpg">
+                    <div class="layer">
+                        <h3>Students Xerox site</h3>
+                        <p>This site is just a static site, built for a Students Xerox business </p>
+                        <a href="https://studentscollegexerox.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                
+            </div>
+            
+                
+                   
+            </div>
+
+        </div>
+        <div class="seemore">
+            <center><a href="javascript:void(0);" class="btn" id="seeMoreBtn">See more</a></center>
+        </div>
+        <div id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">
+                            Contact me
+                        </h1>
+                        <p>
+                            premkumarmuruganit@gmail.com
+                        </p>
+                        <p>
+                            +91 9361713800
+                        </p>
+                        <div class="social-icons">
+                           <a href="https://linkedin.com/in/prem-kumar-6424ab279"><img src="./social media icons/linkedin.jpg"/></a>
+                           <a href="https://github.com/premkumarhub"><img src="./social media icons/github.png"/></a>
+                           
+                        </div>
+                        <a href="./assets/Prem_Kumar_Resume (2).pdf" class="btn btn2">Open Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                          <input type="text" name="Name" placeholder="Your name" required>
+                          <input type="email" name="Email" placeholder="Your email" required>
+                          <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                          <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                      </div>    
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button id="butt"><a href="#header">Go to Top</a</button>
+        </div>
+        <script>
+            const seeMoreBtn = document.getElementById('seeMoreBtn');
+            const hiddenImage = document.querySelector('.hiddenImage');
+
+            seeMoreBtn.addEventListener('click', function(event) {
+            event.preventDefault();
+            hiddenImage.style.display = 'block';
+            seeMoreBtn.style.display = 'none'; });
+            var titlelinks=document.getElementsByClassName("title-links")
+            var contents=document.getElementsByClassName("contents")
+            function opentab(tabname){
+            for (titlelink of titlelinks){
+            titlelink.classList.remove("active-link");
+            }
+            for (content of contents){
+            content.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+}
+        </script>
+       <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxVJr5BzAB09vZ0DF2mSMShWmY0HJ4-8VmCjI8t0331x17MwbQB40sD4Hcp0Q9MDhNEDA/exec';
+        const form = document.forms['submit-to-google-sheet'];
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+              console.log('Success!', response);
+              form.reset(); // Clear the form after successful submission
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+      </script>
+      
+    </html>
